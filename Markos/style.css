@@ -1,0 +1,48 @@
+*{
+    position: relative;
+}
+
+#triangle{
+    width: cover;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+input::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+input{
+    width: 40px;
+}
+
+#bInput{
+    left: 900px;
+}
+
+#aInput{
+    left: 500px;
+    bottom: 200px
+}
+
+#button{
+    width: auto;
+    padding: 5px;
+}
+
+#result{
+    width: 40px;
+    background-color: pink ;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    left: 1000px;
+    bottom: 300px;
+
+}
+
+#heading{
+    text-align: center;
+}
